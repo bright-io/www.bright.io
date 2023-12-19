@@ -8,7 +8,7 @@ img {
 }
 @media only screen and (max-width: 767px) {
   img {
-      margin-top: 40%;
+      margin-top: 20%;
   }
 }
 p {
@@ -16,4 +16,11 @@ p {
   font-size: 20px;
   font-weight: 200;
   text-align: center;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.about {
+  margin-top: 5%;
+}
+.cta {
 }
