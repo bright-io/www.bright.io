@@ -8,16 +8,27 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<style>
 		img {
-			position: absolute;
-			top: 45%;
-			left: 50%;
-			transform: translateX(-50%) translateY(-50%);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      min-width: 400px;
+      margin-top: 10%;
 		}
+    .hello {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      font-weight: 200;
+      text-align: center;
+    }
 	</style>
 </head>
 <body>
-  <p>
-    <a href="mailto:hello@bright.io"><img src="bright-logo.png" alt="Bright logo" width="400"/></a>
-  </p>
+  <div class="logo">
+    <img src="bright-logo.png" alt="Bright logo"/>
+  </div>
+  <div class="hello">
+    <a href="mailto:hello@bright.io">hello@bright.io</a>
+  </div>
 </body>
 </html>
