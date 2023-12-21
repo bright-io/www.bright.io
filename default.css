@@ -12,7 +12,7 @@ img {
       margin-bottom: 10%;
   }
 }
-p {
+.about, .cta {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 200;
@@ -23,5 +23,11 @@ p {
 .about {
   margin-top: 5%;
 }
-.cta {
+.footer {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: #D3D3D3;
+  width: 100%;
 }
