@@ -95,19 +95,25 @@ footer {
 .footer {
   font-size: 13px;
   color: #bbb;
-  mar  mar  mar  mar  marax width: 680px) {
+  margin: 0 auto;
+}
+
+@media (max-width: 680px) {
   main {
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
-    padding: 48px 28px;
+    gap: 56px;
+    padding: 120px 24px 40px;
   }
   .logo-col {
-    width: auto;
-    justify-content: flex-start;
+    width: 100%;
+    justify-content: center;
   }
-  .logo-col img { width: 88px; }
+  .logo-col img { width: 140px; }
   .divider { display: none; }
-  h1 { font-size: 32px; }
-  footer { padding: 0 28px 20px; }
+  .content-col { max-width: 100%; }
+  h1 { font-size: 28px; }
+  .about { font-size: 16px; }
+  .cta { font-size: 16px; }
+  footer { padding: 0 24px 20px; }
 }
