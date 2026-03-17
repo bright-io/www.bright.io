@@ -111,7 +111,7 @@ footer {
   }
   .logo-col img { width: 140px; }
   .divider { display: none; }
-  .content-col { max-width: 100%; }
+  .content-col { max-width: 100%; text-align: center; }
   h1 { font-size: 28px; }
   .about { font-size: 16px; }
   .cta { font-size: 16px; }
